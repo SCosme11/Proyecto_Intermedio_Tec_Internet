@@ -1,0 +1,62 @@
+
+
+/* Contenedor principal del conversor */
+.converter-container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 500px;
+}
+
+/* Estilos para las etiquetas y los grupos de entrada */
+.campo {
+    margin-bottom: 20px;
+}
+
+/* Estilos para los campos de entrada y menús desplegables */
+input[type="number"], select {
+    width: 15%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box; /* Asegura que el padding no afecte el ancho total */
+    font-size: 1rem;
+}
+
+/* Estilo para el campo de resultado que no se puede editar */
+#output-value {
+    background-color: #e9ecef;
+    font-weight: bold;
+    color: #495057;
+}
+
+/* Estilos del botón de conversión */
+button {
+    width: 30%;
+    padding: 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Efecto al pasar el cursor sobre el botón */
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Campo para mostrar el resultado final */
+#result-display {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #28a745;
+    min-height: 25px;
+}

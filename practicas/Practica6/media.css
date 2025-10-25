@@ -1,0 +1,11 @@
+
+
+.twitter-tweet {
+    display: block;
+    margin: 0 auto;
+}
+
+audio, video, iframe, gmp-map, .twitter_tweet {
+    display: inline-block; 
+    max-width: 100%;     
+}

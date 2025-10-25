@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Unidades</title>
+    <link rel="stylesheet" href="../../css/main.css">
+    <link rel="stylesheet" href="conversor.css">
+    <script src="conversor.js"></script>
+</head>
+<body>
+    <header>
+        <div class="header-logo">
+            <a href="../../index.html">
+                <img src="../../images/house.svg" alt="Volver a inicio">
+            </a>
+        </div>
+
+        <div class="header-titulo">
+            <h1>Portafolio Santiago Cosme Cervera</h1>
+        </div>
+
+        <div class="header-placeholder"></div>
+    </header>
+    <div class="main-div" style="text-align: center;">
+    <h1>Conversor de Unidades</h1>
+    <div class="selector-categoria">
+        <label for="categoria">Categoría de la unidad: </label>
+        <select name="categoria" id="categoria">
+            <option value="temperatura">Temperatura</option>
+            <option value="distancia">Distancia</option>
+            <option value="tiempo">Tiempo</option>
+            <option value="moneda">Moneda</option>
+        </select> 
+    </div>
+    <div class="campo">
+        <br>
+        <label for="inputcon">Ingrese valor a convertir: </label> <br> <br>
+        <input type="number" name="inputcon" id="inputcon" placeholder="Introduce un valor">
+        <select name="unidad-e" id="unidad-e"></select>
+    </div>
+    <div class="campo">
+        <label for="resultado">Resultado:</label> <br> <br>
+        <input type="number" id="resultado" readonly>
+        <select name="unidad-s" id="unidad-s"></select>
+    </div>
+
+    <button id="convertir">Convertir</button>
+    <p id="display-res"></p>
+    </div>
+    <footer>
+        <p>&copy; 2025 Portafolio Santiago Cosme Cervera.</p>
+        <p>santiago_cosme@anahuac.mx</p>
+    </footer>
+</body>
+</html>

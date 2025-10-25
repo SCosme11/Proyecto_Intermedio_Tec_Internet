@@ -1,0 +1,39 @@
+
+#respuestas {
+  width: 80%;
+  border-collapse: collapse;
+  margin: 20px auto;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  text-align: center;
+}
+
+
+#respuestas td, #respuestas th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+
+#respuestas th {
+  background-color: #4CAF50;
+  color: white;
+  text-align: center;
+}
+
+
+#respuestas tr.renglon1 {
+  background-color: #f9f9f9;
+}
+
+
+#respuestas tr.renglon2 {
+  background-color: #e6f7ff;
+}
+
+
+#respuestas tr:hover {
+  background-color: #d1e7dd;
+}
+

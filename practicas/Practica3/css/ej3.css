@@ -1,0 +1,14 @@
+h1 {
+    text-align: center;
+}
+
+.galeria {
+    text-align: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.galeria img {
+    width: 500px;
+    height: auto;
+}

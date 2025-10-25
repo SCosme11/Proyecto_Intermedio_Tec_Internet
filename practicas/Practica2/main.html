@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Práctica 2</title>
+    <link rel="stylesheet" href="../../css/main.css">
+</head>
+<body>
+    <div class="main-div">
+    <header>
+        <div class="header-logo">
+            <a href="../../index.html">
+                <img src="../../images/house.svg" alt="Volver a inicio">
+            </a>
+        </div>
+
+        <div class="header-titulo">
+            <h1>Portafolio Santiago Cosme Cervera</h1>
+        </div>
+
+        <div class="header-placeholder"></div>
+    </header>
+    <h1 style="text-align: center;">Montañas más altas del mundo</h1>
+    <h2>Lista ordenada por altura</h2>
+    <ol>
+        <li>Everest (8849 m)</li>
+        <li>K2 (8611 m)</li>
+        <li>Kanchenjunga (8586 m)</li>
+        <li>Lhotse (8516 m)</li>
+        <li>Makalu (8485 m)</li>
+        <li>Cho Oyu (8188 m)</li>
+        <li>Dhaulagiri (8167 m)</li>
+        <li>Manaslu (8163 m)</li>
+        <li>Nanga Parbat (8125 m)</li>
+        <li>Annapurna I (8091 m)</li>
+    </ol>
+    <h2>Montañas reconocidas por su belleza</h2>
+    <ul>
+        <li>Matterhorn</li>
+        <li>Monte Fuji</li>
+        <li>Alpamayo</li>
+        <li>Ama Dablam</li>
+        <li>Monte Fitz Roy</li>
+        <li>Cerro Torre</li>
+        <li>Table Mountain</li>
+        <li>Denali</li>
+        <li>Monte Kilimanjaro</li>
+        <li>Mont Blanc</li>
+    </ul>
+    <h1 style="text-align: center;">Regiones Montañosas más importantes</h1>
+    <dl>
+        <dt>Himalaya:</dt>
+        <dd>La cordillera más alta del mundo, alberga el Everest y numerosos picos de más de 8,000 m.</dd>
+        <dt>Andes:</dt>
+        <dd>La cadena montañosa más larga, atraviesa Sudamérica de norte a sur con volcanes y glaciares.</dd>
+        <dt>Alpes:</dt>
+        <dd>Ubicados en Europa central, destacan por su belleza escénica y montañas icónicas como el Mont Blanc y el Matterhorn.</dd>
+        <dt>Karakórum:</dt>
+        <dd>Situado entre Pakistán, India y China, alberga el K2, la segunda montaña más alta del planeta.</dd>
+        <dt>Cáucaso:</dt>
+        <dd>Entre Europa y Asia, contiene el monte Elbrus, la cima más alta de Europa.</dd>
+    </dl>
+    <h3>Formulario de Exploradores de Montañas</h3>
+    <h4>Registro de Datos Personales</h4>
+    <form action="#">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre"> <br> <br>
+
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido" name="apellido"> <br> <br>
+
+        <label for="ciudad">Ciudad de origen:</label>
+        <input type="text" id="ciudad" name="ciudad"> <br> <br>
+
+        <label for="password">Contraseña:</label>
+        <input type="password" id="password" name="password"> <br> <br>
+
+        <label for="edad">Edad:</label>
+        <input type="number" id="edad" name="edad"> <br> <br>
+
+        <label for="fechaExpedicion">Fecha de la próxima Expedición:</label>
+        <input type="date" id="fechaExpedicion" name="fechaExpedicion"> <br> <br>
+
+        <h4>Preferencias de Montañismo</h4>
+
+        <h5>Tipos de terreno favoritos:</h5>
+        <input type="checkbox" id="rocas" name="terreno" value="rocas">
+        <label for="rocas">Rocas</label><br>
+
+        <input type="checkbox" id="nieve" name="terreno" value="nieve">
+        <label for="nieve">Nieve</label><br>
+
+        <input type="checkbox" id="glaciar" name="terreno" value="glaciar">
+        <label for="glaciar">Glaciar</label><br>
+
+        <input type="checkbox" id="bosque" name="terreno" value="bosque">
+        <label for="bosque">Bosque</label><br><br>
+
+        <h5>Dificultad Preferida:</h5>
+        <input type="radio" id="facil" name="dificultad" value="facil">
+        <label for="facil">Fácil</label><br>
+
+        <input type="radio" id="moderada" name="dificultad" value="moderada">
+        <label for="moderada">Moderada</label><br>
+
+        <input type="radio" id="dificil" name="dificultad" value="dificil">
+        <label for="dificil">Difícil</label><br>
+
+        <input type="radio" id="extrema" name="dificultad" value="extrema">
+        <label for="extrema">Extrema</label><br><br>
+
+        <h3>Información adicional</h3>
+        <label for="email">Correo electrónico:</label>
+        <input type="email" id="email" name="email"><br><br>
+
+        <label for="foto">Subir foto de tu última expedición:</label>
+        <input type="file" id="foto" name="foto"><br><br>
+
+        <label for="color">Color favorito para equipo de montaña:</label>
+        <input type="color" id="color" name="color"><br><br>
+
+        <label for="altura">Altura que quieres alcanzar (m):</label>
+        <input type="range" id="altura" name="altura" min="0" max="8850" step="50"><br><br>
+
+        <button type="submit">Enviar</button>
+    </form> <br>
+    </div>
+    <footer>
+        <p>&copy; 2025 Portafolio Santiago Cosme Cervera.</p>
+        <p>santiago_cosme@anahuac.mx</p>
+    </footer>
+</body>
+</html>

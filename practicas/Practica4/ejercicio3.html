@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 3</title>
+    <script src="ejercicio3.js"></script>
+    <link rel="stylesheet" href="../../css/main.css">
+</head>
+<body>
+    <div class="main-div">
+    <header>
+        <div class="header-logo">
+            <a href="../../index.html">
+                <img src="../../images/house.svg" alt="Volver a inicio">
+            </a>
+        </div>
+
+        <div class="header-titulo">
+            <h1>Portafolio Santiago Cosme Cervera</h1>
+        </div>
+
+        <div class="header-placeholder"></div>
+    </header>
+    <h1 style="text-align: center;">Formulario</h1>
+    <h4>Nombre:</h4>
+    <input type="text" id="nombre">
+    <h4>Correo:</h4>
+    <input type="email" id="correo">
+    <h4>Edad:</h4>
+    <input type="number" id="edad">
+    <h4>Género:</h4>
+    <input type="radio" name="genero" value="Masculino" id="genero"> Masculino
+    <input type="radio" name="genero" value="Femenino" id="genero"> Femenino
+    <h4>Fecha de Nacimiento:</h4>
+    <input type="date" id="fdn">
+    <h4>Color Favorito</h4>
+    <input type="color" id="color"> <br> <br>
+    <button onclick="resultados()">Enviar</button>
+    <p id="resultado"></p>
+    </div>
+    <a href="index.html" class="boton-regreso">Regresar a Práctica 4</a> <br>
+    <footer>
+        <p>&copy; 2025 Portafolio Santiago Cosme Cervera.</p>
+        <p>santiago_cosme@anahuac.mx</p>
+    </footer>
+</body>
+</html>
